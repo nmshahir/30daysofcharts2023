@@ -5,7 +5,7 @@ library(ggtext)
 library(waffle)
 
 #Import package
-Rainbow_Tomatoes_Garden_Fish_List <- read_excel("C:/Users/626568/Downloads/Rainbow Tomatoes Garden Fish List.xlsx")
+Rainbow_Tomatoes_Garden_Fish_List <- read_excel("location/of/data/Rainbow Tomatoes Garden Fish List.xlsx")
 
 # There are 63 "distinct" varieties of tinned fish but upon closer look some of them are "Tuna, Albacore" or "Tuna, Skipjack"
 # which are both in the broader super category of "Tuna". SO TIME FOR SOME DATA WRANGLING/MUNGING
